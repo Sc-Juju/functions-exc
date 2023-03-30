@@ -39,14 +39,14 @@ console.log(room3);
 
 // Your code goes here...
 
-function totalRoomsArea(room1,room2,room3){
+function totalRoomsArea =(room1,room2,room3){
   return room1+room2+room3;
 }
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 values as arguments for the function call
 const result = function () {
-    console.log(totalRoomsArea(room1,room2,room3));
+    console.log(totalRoomsArea);
 }
 
 

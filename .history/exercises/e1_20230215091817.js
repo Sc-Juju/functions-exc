@@ -44,7 +44,7 @@ logMyMessage('I log my first message!');
 function logMessageWithMyName (name){
   console.log(`My name is ${name}!`);
 }
-logMessageWithMyName('Andrey');
+logMessageWithMyName(Julian);
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -57,9 +57,9 @@ logMessageWithMyName('Andrey');
 
 // Your code goes here...
 function logMyInfo (name, age){
-console.log(`My name is ${name}. I am ${age} years old!`,);
+console.log(`My name is ${name}, I'm ${age} years old!`);
 }
-logMyInfo('Andrey', 18);
+logMyInfo(Julian, 20);
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
 // If the test has all tests passed, switch to the next exercise file

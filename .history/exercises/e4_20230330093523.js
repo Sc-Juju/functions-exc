@@ -12,9 +12,7 @@
 // function splitFirstAndLastNames(str) {
 //   return str.split(' ');
 // }
-const splitFirstAndLastNames = (str) =>{
-  return str.split(' ');
-}
+const splitFirstAndLastNames = (str) => return str.split(' ');
 
 /** =========================
  * The personAge() constant is assigned to a function, that takes an object of person Data as the argument.
@@ -26,7 +24,7 @@ const splitFirstAndLastNames = (str) =>{
 //   return personObject.age;
 // }
 
-const personAge = (personObject) => {return personObject.age;}
+const personAge = (personObject) => return personObject.age;
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -39,33 +37,8 @@ const personAge = (personObject) => {return personObject.age;}
 //   return arr.includes(name);
 // }
 
-const isNameInArray = (arr, name) => {
-  return arr.includes(name);
-}
+const isNameInArray = (arr, name) => arr.includes(name);
 
-/* !----PLEASE READ---!
- I am confident my function is correct however it it giving me the following error
- and im unsure how to fix what the terminal is asking me for 
-
-isNameInArray > Should return the value of the age property of the object passed
-AssertionError: expected undefined to deeply equal true
- ❯ test/e4.test.js:30:45
-     28|   it('Should return the value of the age property of the object passed', () => {
-     29|     const arr = ['Jon', 'Michael', 'Andrey'];
-     30|     expect(f.isNameInArray(arr, 'Michael')).toEqual(true);
-       |                                             ^
-     31|     expect(f.isNameInArray(arr, 'James')).toEqual(false);
-     32|   });
-
-  - Expected   "true"
-  + Received   "undefined"
-
-  i tried refactoring my function to this but still errors
-  
-const isNameInArray = (arr, name) => {
-  const found = arr.find(obj => obj.name === name);
-  return found ? found.age : undefined;
-}*/
 
 /** =========================
  * The logTimer function takes a number as the arguments.

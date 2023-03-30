@@ -12,10 +12,9 @@
 */
 
 // Your code goes here
-const logMessage = () => {
-  console.log('Hello, World!');
-};
-logMessage();
+
+
+
 /**
  * =============================================================
  * Create a function that works as follows:
@@ -27,10 +26,9 @@ logMessage();
 */
 
 // Your code goes here...
-function logMyMessage(message) {
-  console.log(message);
-}
-logMyMessage('I log my first message!');
+
+
+
 /**
  * ===============================================================
  * Create a  function that works as follows:
@@ -41,10 +39,9 @@ logMyMessage('I log my first message!');
 */
 
 // Your code goes here...
-function logMessageWithMyName (name){
-  console.log(`My name is ${name}!`);
-}
-logMessageWithMyName('Andrey');
+
+
+
 /**
  * ==============================================================
  * Create a function that works as follows:
@@ -56,10 +53,9 @@ logMessageWithMyName('Andrey');
 */
 
 // Your code goes here...
-function logMyInfo (name, age){
-console.log(`My name is ${name}. I am ${age} years old!`,);
-}
-logMyInfo('Andrey', 18);
+
+
+
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
 // If the test has all tests passed, switch to the next exercise file
